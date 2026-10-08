@@ -1,0 +1,203 @@
+--- Slide 1 ---
+
+Big Data Engineering
+Anomaly Detection in Times Series
+
+
+
+Diapositiva 1
+--- Slide 2 ---
+
+
+
+
+
+Task that involves identifying unusual patterns that deviate from expected behavior.
+What is Anomaly Detection
+Diapositiva 10
+
+1
+
+
+
+Building and training the deep learning model using the pre-processed data
+Deep Learning Model
+
+Collection of raw data from various sources
+
+Raw Data
+Process of extracting relevant data from raw datasets
+
+Data Extraction
+
+Preparation of Data for analysis and modeling
+Data PreProcessing
+Result
+
+Big Data Engineering
+Anomaly Detection in Times Series
+
+
+
+--- Slide 3 ---
+
+
+
+Building and training the deep learning model using the pre-processed data
+Deep Learning Model
+
+Collection of raw data from various sources
+
+Raw Data
+Process of extracting relevant data from raw datasets
+
+Data Extraction
+
+Preparation of Data for analysis and modeling
+Data PreProcessing
+
+2
+Workflow
+Diapositiva 9
+Result
+
+
+
+
+
+Task that involves identifying unusual patterns that deviate from expected behavior.
+What is Anomaly Detection
+--- Slide 4 ---
+
+3
+Workflow
+--- Slide 5 ---
+
+4
+Dataset
+Diapositiva 6
+Number of data points available
+5mln instances
+--- Slide 6 ---
+
+5
+Data Standardization
+Diapositiva 6
+X is the original value of the feature
+μ is the mean of the feature’s values
+σ is the standard deviation of the feature’s values
+Make the coefficients of the features more interpretable
+Prevent features with different scales from disrupting the model
+Number of data points available
+5mln instances
+
+
+
+An autoencoder is a type of artificial neural network used to learn efficient encodings of unlabeled data (unsupervised learning).
+--- Slide 7 ---
+
+Diapositiva 7
+
+
+An autoencoder is a type of artificial neural network used to learn efficient encodings of unlabeled data (unsupervised learning).
+
+6
+--- Slide 8 ---
+
+Diapositiva 7
+
+The autoencoder performs two functions:
+
+An encoding function that transforms the input data (Encoder)
+A decoding function that recreates the input data (Decoder)
+
+When an anomalous input is received, the autoencoder fails to recreate it, recognizing it as anomalous.
+Why an Autoencoder?
+
+7
+--- Slide 9 ---
+
+8
+Hyperparameters
+Diapositiva 6
+--- Slide 10 ---
+
+9
+Model 1 vs Model 2
+Diapositiva 6
+
+
+Apache Kafka is a distributed data streaming platform that allows publishing, subscribing, storing, and processing streams of records in real-time.
+
+It is designed to handle data streams from multiple sources and distribute them to different consumers. 
+
+In essence, Kafka enables the movement of large amounts of data between multiple points simultaneously.
+--- Slide 11 ---
+Diapositiva 7
+
+
+Apache Kafka is a distributed data streaming platform that allows publishing, subscribing, storing, and processing streams of records in real-time.
+
+It is designed to handle data streams from multiple sources and distribute them to different consumers. 
+
+In essence, Kafka enables the movement of large amounts of data between multiple points simultaneously.
+
+10
+--- Slide 12 ---
+Diapositiva 7
+
+Sending messages to Kafka topic
+Starting Kafka server
+Online anomaly detection
+Training performed offline
+Using Kafka
+
+11
+--- Slide 13 ---
+
+12
+
+
+
+Model 2
+
+
+RMSprop
+
+
+90th Percentile
+Results
+Diapositiva 4
+
+Sending messages to Kafka topic
+Starting Kafka server
+Online anomaly detection
+Training performed offline
+Using Kafka
+
+
+30 epochs displayed slightly higher accuracy
+--- Slide 14 ---
+Results
+
+
+30 epochs displayed slightly higher accuracy
+
+13
+Diapositiva 2
+
+
+
+Model 2
+
+
+RMSprop
+
+
+90th Percentile
+--- Slide 15 ---
+
+
+
+Thank you foryour attention
+Diapositiva 11
